@@ -30,7 +30,7 @@ void printSummary(double avg) {
 }
 
 int high(const int a[], int n) {
-  // TODO: return the max. Seed from a[0].
+  // Returns the highest number.
   int high = a[0];
   for (int i = 1; i < n; ++i){
     if (a[i] > high){
